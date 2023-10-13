@@ -1,0 +1,8 @@
+.titleContainer {
+  display: flex;
+
+  h1 {
+    display: inline;
+    margin-left: 20px;
+  }
+}

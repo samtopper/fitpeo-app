@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+.navigationSection {
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(49, 49, 152);
+}
+
+.viewSection {
+  width: 70%;
+
+}
