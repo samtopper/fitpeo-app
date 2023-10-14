@@ -3,6 +3,7 @@ import { List } from "./components/list";
 import { Header } from "./components/header";
 
 import "./App.css";
+import { Cards } from "./components/cards";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
 
       <div className="viewSection">
         <Header username="John Doe" />
-        {/* <div>view cards</div> */}
+        <Cards />
       </div>
     </div>
   );

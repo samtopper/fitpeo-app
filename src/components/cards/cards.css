@@ -1,0 +1,38 @@
+.cardsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    
+}
+.card{
+    display: flex;
+    /* flex: 1; */
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+.label{
+    font-weight: lighter;
+}
+.value{
+    font-weight: bold;
+    font-size: x-large;
+}
+.image{
+    background: aliceblue;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    align-self: center;
+    font-size: xxx-large;
+}
+.rate{
+    margin-right: 4px;
+}
+.rateIncrease{
+    color: green;
+}
+.rateDecrease{
+    color: red;
+}
