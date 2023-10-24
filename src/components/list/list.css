@@ -1,4 +1,33 @@
-.listContainer{
-    display: flex;
-    
+/* .listContainer {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  margin: 20px;
+} */
+
+.listItem {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  /* justify-items: baseline; */
+  align-items: baseline;
+  font-size: 15px;
+  background-color: rgb(42, 42, 175);
+}
+.listItem,
+li {
+  border: 2px solid rgb(14, 14, 136);
+  margin: 0 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.listItem p {
+  /* margin: 10px -30px; */
+  padding: 10px 10px 10px 5px;
+  margin-left: -35px;
+}
+.option {
+  width: 10px;
+  height: 10px;
+  mix-blend-mode: multiply;
 }
